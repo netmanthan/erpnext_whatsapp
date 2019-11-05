@@ -23,7 +23,7 @@ def get_pdf_for_whatsapp(doctype, name, key):
 
 def get_url_for_whatsapp(doctype, name):
     doc = frappe.get_doc(doctype, name)
-    return "{url}/api/method/erpnext.erpnext_integrations.doctype.whatsapp_settings.whatsapp_settings.get_pdf_for_whatsapp?doctype={doctype}&name={name}&key={key}".format(
+    return "{url}/api/method/whatsapp_integration.api.get_pdf_for_whatsapp?doctype={doctype}&name={name}&key={key}".format(
         url=frappe.utils.get_url(),
         doctype=doctype,
         name=name,
