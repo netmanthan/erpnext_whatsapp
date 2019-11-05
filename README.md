@@ -9,7 +9,7 @@
 ### New option "Whatsapp" (and Attach Document Print) in "Send SMS" dialog
 ![66226881-405e4d80-e6b2-11e9-8692-c72e69eedf8c](https://user-images.githubusercontent.com/46027152/68233035-22e81080-ffdd-11e9-9a64-93cc4d5635ab.png)
 
-## Instalation Guide
+## Installation Guide
 First you have to get the app:
 ```shell
 bench get-app git@github.com:fproldan/erpnext_whatsapp.git
