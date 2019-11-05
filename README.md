@@ -8,3 +8,18 @@
 
 ### New option "Whatsapp" (and Attach Document Print) in "Send SMS" dialog
 ![66226881-405e4d80-e6b2-11e9-8692-c72e69eedf8c](https://user-images.githubusercontent.com/46027152/68233035-22e81080-ffdd-11e9-9a64-93cc4d5635ab.png)
+
+## Instalation Guide
+First you have to get the app:
+```shell
+bench get-app git@github.com:fproldan/erpnext_whatsapp.git
+```
+Then, you should double check for the requirements to be ready:
+```shell
+bench update --requirements
+bench build
+```
+And for the last step, you should install the app in you site:
+```shell
+bench --site SITE_NAME install-app whatsapp_integration
+```
