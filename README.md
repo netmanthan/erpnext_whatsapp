@@ -23,3 +23,8 @@ And for the last step, you should install the app in you site:
 ```shell
 bench --site SITE_NAME install-app whatsapp_integration
 ```
+
+## Whatsapp for Business limitations
+- WhatsApp requires that your application implement [explicit user opt-ins](https://developers.facebook.com/docs/whatsapp/guides/opt-in/) to deliver messages over WhatsApp .
+- You always should start the comunication with a template message aproved by Whatsapp. To read more about templates, click [here](https://developers.facebook.com/docs/whatsapp/message-templates/creation/).
+- After the client sends you a message, you have 24hs to send whatever you want (not only template messages).
